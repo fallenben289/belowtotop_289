@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100%;
+  
+  }
+  
+  nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(96, 207, 96);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    padding: 0 10px;
+    z-index: 1;
+    box-shadow: 
+    0 2px 4px rgba(0, 0, 0, 0.2),
+    0 4px 8px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    color: rgb(238, 116, 116);
+  }
+
+  
+  
+  nav a.active {
+    color: rgb(114, 22, 22);
+  }
+
+  nav a.active:hover {
+    color: rgb(32, 146, 79);
+  }
+  
+  nav a i {
+    font-size: 24px;
+    margin-bottom: 5px;
+    
+}
+
+.thead{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    justify-content: space-around;
+    display: flex;
+    font-style: italic;
+    text-align: center;
+   font-size: 24px;
+   background-color: rgb(96, 207, 96);
+}
+
+section{
+    margin-left: 2%;
+    margin-top: 45px;
+}
+
+.row{
+    left: 50%;
+    right: 50%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.row .col{
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 8px;
+width: auto;
+margin: 0;
+margin-top: 5%;
+margin-left: 12%;
+font-size: 20px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#home{
+    height: 1000px;
+    width: 1000px;
+}
+
+#profile{
+    height: 1000px;
+    width: 1000px;
+}
+
+.p3{
+  top:0px;
+}
+
+.look{
+  border-radius: 5px;
+  width: fit-content;
+  margin-left: 35%;
+  background-color: rgb(150, 209, 219);
+  font-size: 24px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  
+}
+
+.look a{
+  text-decoration: none;
+}
+
+.look:hover{
+  background-color: wheat;
+  
+}
